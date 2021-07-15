@@ -3,16 +3,20 @@
 	--white-color: #ffffff;
 	--green-color: #495126;
 	--purple-color: #665083;
+	--blackish-green: #24290e;
+	--whitish-green: #66695a;
 }
 
 /* next highest global styles declaration */
 * {
 	/* border: 1px solid var(--purple-color); */
+	line-height: 1.5;
 }
 
 body {
 	font-size: 16px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: var(--whitish-green);
 }
 
 a {
@@ -22,6 +26,8 @@ a {
 }
 
 /* lower priority - stylings directly related to our index page */
+
+/* header section styling */
 header {
 	display: flex;
 	justify-content: space-between;
@@ -79,4 +85,51 @@ header > nav > ul > li > a {
 header > nav > ul > li > a:hover {
 	background-color: var(--white-color);
 	color: var(--green-color);
+	border-radius: 5px 5px 0 0;
+}
+
+/* main section styling */
+main {
+	margin-top: 100px;
+}
+
+main section {
+	display: flex;
+	min-height: 30vh;
+	padding: 2%;
+	border: 1px solid lightgrey;
+	border-radius: 20px;
+	box-shadow: 0px 4px 6px 0px grey;
+	margin: 0 2% 20px 2%;
+}
+
+.article-heading {
+	min-width: 20%;
+	border-right: 4px dotted var(--green-color);
+}
+
+.article-heading h3 {
+	font-size: 1.6rem;
+	line-height: 3;
+}
+
+.article-content article {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.article-content article h1 {
+	padding-top: 0;
+	font-size: 3rem;
+	color: var(--blackish-green);
+}
+
+.article-content article h2 {
+	font-size: 2rem;
+	color: var(--blackish-green);
+}
+
+.article-content article p {
+	line-height: 3;
+	margin-bottom: 10px;
 }
