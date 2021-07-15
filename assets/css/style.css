@@ -108,7 +108,7 @@ main section {
 
 .article-heading {
 	flex: 1;
-	border-right: 4px dotted var(--green-color);
+	border-right: 4px dashed var(--green-color);
 }
 
 .article-heading h3 {
@@ -197,6 +197,26 @@ footer span {
 
 /* media query for screens below 760px */
 @media screen and (max-width: 760px) {
+
+	.article-content article h1 {
+		font-size: 2rem;
+		border-bottom: 2px dotted var(--green-color);
+		text-align: center;
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+	}
+	
+	.article-content article h2 {
+		font-size: 1.6rem;
+		border-bottom: 2px dotted var(--green-color);
+		text-align: center;
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+	}
+	
+	.article-content article p {
+		text-align: center;
+	}
 
 	/* change the header flex direction to column instead of row */
 	header {
