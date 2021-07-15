@@ -5,12 +5,12 @@ This is an oline representation of who I am, what my software engineering skills
 ---
 
 ## Table of Content
-1. [Project Description]()
-2. [Acceptance Criteria]()
-3. [Wireframe Preview]()
-4. [Useful Links]()
-5. [Credits]()
-6. [Licence]()
+1. [Project Description](https://github.com/Brondchux/hw2-my-portfolio#project-description)
+2. [Acceptance Criteria](https://github.com/Brondchux/hw2-my-portfolio#acceptance-criteria)
+3. [Wireframe Preview](https://github.com/Brondchux/hw2-my-portfolio#wireframe-preview)
+4. [Useful Links](https://github.com/Brondchux/hw2-my-portfolio#useful-links)
+5. [Credits](https://github.com/Brondchux/hw2-my-portfolio#credits)
+6. [Licence](https://github.com/Brondchux/hw2-my-portfolio#licence)
 
 ---
 ## Acceptance Criteria
@@ -52,6 +52,8 @@ Shoutout to my team for the study group outside class hours, it went a long way 
 Special thanks to [Google](https://www.google.com) for helping me find the accurate answers to my questions in a very timely manner.
 
 Thanks to [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for quick and easy markdown documentation.
+
+Thanks to [SETCorrect LLC](https://www.setcorrect.com/portfolio/work11/) for guides on how to anchor-link on markdown files.
 
 ## Licence
 Coming soon!
