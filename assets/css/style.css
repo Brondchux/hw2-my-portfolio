@@ -39,6 +39,7 @@ header {
 }
 
 header > div {
+	flex: 1;
 	margin: 2%;
 	border: 2px solid var(--green-color);
 	border-radius: 50%;
@@ -55,7 +56,7 @@ header > div {
 
 header > nav {
 	/* take up the remaining space by setting flex-grow as 1 */
-	flex: 1 0 0;
+	flex: 4;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
@@ -78,7 +79,7 @@ header > nav > ul > li {
 header > nav > ul > li > a {
     background-color: var(--green-color);
     display: block;
-    padding: 10px;
+    padding: 10px 30px;
 	color: var(--white-color);
 }
 
@@ -111,7 +112,7 @@ main section {
 
 .article-heading h3 {
 	font-size: 1.6rem;
-	line-height: 3;
+	line-height: 2;
 }
 
 .article-content {
@@ -168,4 +169,12 @@ main section {
 	background-color: var(--green-color);
 	color: var(--white-color);
 	border-radius: 0 0 10px 10px;
+}
+
+#contact-me ul li {
+	margin-top: 10px;
+}
+
+#contact-me ul li a {
+	color: var(--purple-color);
 }
