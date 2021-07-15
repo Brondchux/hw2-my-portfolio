@@ -44,7 +44,7 @@ header > div {
 	border: 3px solid var(--green-color);
 	border-radius: 50%;
 	width: 150px;
-	height: 150px;
+	min-height: 150px;
 	background-image: url("../images/gospel-chukwu.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -66,6 +66,7 @@ header > nav {
 
 header > nav > ul {
 	display: flex;
+	flex-wrap: wrap;
 	border-radius: 5px 5px 0 0;
 	padding: 5px;
 	justify-content: space-between;
@@ -192,4 +193,39 @@ footer {
 
 footer span {
 	font-size: 0.9rem;
+}
+
+/* media query for screens below 760px */
+@media screen and (max-width: 760px) {
+
+	/* change the header flex direction to column instead of row */
+	header {
+		flex-direction: column;
+		align-items: center;
+		min-height: 200px;
+	}
+
+	header > div {
+		position: relative;
+		top: 0;
+	}
+
+	header > nav {
+		margin-right: 0;
+	}
+
+	header > nav > ul > li {
+		width: 100%;
+		text-align: center;
+	}
+
+	/* reduce the margin top for our main section */
+	main {
+		margin-top: 30px;
+	}
+
+	/* hide every article heading - there's really no need for it on mobile */
+	.article-heading {
+		display: none;
+	}
 }
