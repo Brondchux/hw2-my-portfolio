@@ -78,9 +78,9 @@ header > nav > ul > li {
 }
 
 header > nav > ul > li > a {
-    background-color: var(--green-color);
-    display: block;
-    padding: 10px 30px;
+	background-color: var(--green-color);
+	display: block;
+	padding: 10px 30px;
 	color: var(--white-color);
 }
 
@@ -197,7 +197,6 @@ footer span {
 
 /* media query for screens below 760px */
 @media screen and (max-width: 760px) {
-
 	.article-content article h1 {
 		font-size: 2rem;
 		border-bottom: 2px dotted var(--green-color);
@@ -205,7 +204,7 @@ footer span {
 		padding-bottom: 5px;
 		margin-bottom: 10px;
 	}
-	
+
 	.article-content article h2 {
 		font-size: 1.6rem;
 		border-bottom: 2px dotted var(--green-color);
@@ -213,7 +212,7 @@ footer span {
 		padding-bottom: 5px;
 		margin-bottom: 10px;
 	}
-	
+
 	.article-content article p {
 		text-align: center;
 	}
@@ -247,5 +246,10 @@ footer span {
 	/* hide every article heading - there's really no need for it on mobile */
 	.article-heading {
 		display: none;
+	}
+
+	/* center contact me details */
+	#contact-me ul li {
+		text-align: center;
 	}
 }
