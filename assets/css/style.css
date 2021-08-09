@@ -180,6 +180,14 @@ main section {
 	color: var(--purple-color);
 }
 
+figcaption div {
+	background-color: var(--white-color);
+	padding: 5px;
+	border-radius: 5px;
+	color: var(--blackish-green);
+	margin-top: 3px;
+}
+
 /* footer stylings here */
 footer {
 	margin-top: 50px;
