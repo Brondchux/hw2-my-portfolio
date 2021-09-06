@@ -146,16 +146,16 @@ main section {
 	flex-wrap: wrap;
 }
 
-#portfolio-images figure {
-	flex: 1 0 200px;
-	border: 1px solid var(--blackish-green);
-	padding: 5px;
-	margin: 2px;
-	border-radius: 10px;
+#portfolio-images figure[data-recent] {
+	flex: 1 1 200px;
 }
 
-#portfolio-images figure[data-recent] {
-	flex: 4 0 200px;
+#portfolio-images figure {
+	flex: 1 1 200px;
+	border: 1px solid var(--blackish-green);
+	padding: 5px;
+	margin: 10px;
+	border-radius: 10px;
 }
 
 #portfolio-images figure img {
@@ -167,9 +167,13 @@ main section {
 	text-align: center;
 	font-size: 0.9rem;
 	padding: 5px;
-	background-color: var(--green-color);
+	background-color: #000000;
 	color: var(--white-color);
 	border-radius: 0 0 10px 10px;
+}
+
+#portfolio-images figure figcaption a {
+	display: block;
 }
 
 #contact-me ul li {
