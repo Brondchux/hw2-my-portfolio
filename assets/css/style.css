@@ -111,8 +111,12 @@ main section {
 	margin: 0 2% 50px 2%;
 }
 
+.bold {
+	font-weight: 600;
+}
+
 .resume-buttons {
-	margin-top: 100px;
+	margin-top: 50px;
 	display: flex;
 	justify-content: space-between;
 }
