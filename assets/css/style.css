@@ -111,10 +111,17 @@ main section {
 	margin: 0 2% 50px 2%;
 }
 
-button,
-button:active,
-button:focus,
-button:hover {
+.resume-buttons {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.resume-buttons a,
+.resume-buttons a:active,
+.resume-buttons a:focus,
+.resume-buttons a:hover {
+	text-align: center;
 	color: var(--white-color);
 	background-color: var(--green-color);
 	padding: 10px 0;
@@ -124,12 +131,6 @@ button:hover {
 	box-shadow: 0px 4px 8px var(--grey-color);
 	margin: 5px 0;
 	font-size: 2rem;
-}
-
-.resume-buttons {
-	margin-top: 100px;
-	display: flex;
-	justify-content: space-between;
 }
 
 .article-heading {
