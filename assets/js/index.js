@@ -1,3 +1,10 @@
+document.querySelectorAll('.home-tab').forEach(link => {
+	link.addEventListener('click', (e) => {
+		e.preventDefault();
+		window.location.href = 'index.html';
+	});
+});
+
 function getCurrentYear() {
 	let date = new Date();
 	return date.getFullYear();
