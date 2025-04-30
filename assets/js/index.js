@@ -5,7 +5,7 @@ function getCurrentYear() {
 
 function displayCurrentYear() {
 	let currentYear = document.getElementById("currentYear");
-	currentYear && (currentYear.textContent = getCurrentYear());
+	currentYear && (currentYear.textContent = `2021 - ${getCurrentYear()}`);
 }
 
 displayCurrentYear();
